@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Keystroke logger</title>
+    <script src="keystroke.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <p>Write in the box. Every keystroke will be logged.</p>
+    <textarea id="text_box" rows="8" cols="80" autofocus></textarea>
+    <p>Every key you type will appear below with a timestamp.</p>
+    <p id='keystroke_log'></p>
+  </body>
+  <script type="text/javascript">
+    window.onload = function(){
+      document.getElementById("text_box").focus();
+    };
+  </script>
+</html>
