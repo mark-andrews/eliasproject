@@ -3,7 +3,9 @@ For example, you could run the Python standard library basic http server as foll
 ```python
 python -m http.server 8080
 ```
-With that, you can use the local URL `http://0.0.0.0:8080`.
+Where is assumed that the above command is being run in a system shell (e.g., and Linux or MacOS unix terminal, or a Windows Dos shell, etc), whose working directory is `eliasproject/prototype`, and that `python` refers to a Python 3 executable.
+
+With that, you can use the local URL `http://127.0.0.1:8080` or `http://localhost:8080` or (`http://0.0.0.0:8080`, but that might not always work).
 That will bring up the demo webpage.
 
 In the demo, on page load, a text box will get immediate focus.
